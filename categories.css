@@ -1,0 +1,20 @@
+.categories {
+    flex: 0 0 256px;
+    display: flex;
+    flex-direction: column;
+}
+
+main > nav a {
+    text-decoration: none;
+    font-family: Dosis;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: .2rem;
+    background: rgb(5, 51, 12);
+    color: white;
+    padding: 1rem;
+}
+
+main > nav a:hover {
+    box-shadow: 0 2px 5px -2px black;
+}
